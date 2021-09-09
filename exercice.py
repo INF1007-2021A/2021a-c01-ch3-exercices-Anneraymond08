@@ -30,7 +30,7 @@ def to_degrees(angle_rads: float) -> tuple:
     min_total = reste_deg * 60
     min = int(min_total)
     reste_min = min_total-min
-    sec = reste_min * 60
+    sec = reste_min*60
     return deg, min, sec
 
 
